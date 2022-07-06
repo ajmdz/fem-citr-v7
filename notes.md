@@ -3,7 +3,7 @@
 ## JSX 
 * JSX elements are made using calls to React.createElement()
 * Void tags (e.g. `<Component/>`) 
-* 
+* Valid JSX may sometimes be invalid html
 
 ## Components
 * when using an html `class` attribute, we use `className` (e.g. `<div className="">`)
