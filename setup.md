@@ -57,12 +57,15 @@ ESLINT SETUP
 	ADDITIONAL PLUGIN SETUP FOR REACT:
 	Plugins augment the ability of ESLint to understand additional language features
 	1. npm install -D eslint-plugin-import@2.25.4 eslint-plugin-jsx-a11y@6.5.1 eslint-plugin-react@7.28.0
+	npm install -D eslint-plugin-react-hooks@4.3.0
+
 	2. Update the .eslintrc.json by adding:
 	"extends": [
 		...,
 		"plugin:import/errors",
     		"plugin:react/recommended",
     		"plugin:jsx-a11y/recommended",
+			"plugin:react-hooks/recommended",
 		...
 	],
 
@@ -71,7 +74,7 @@ ESLINT SETUP
     		"react/react-in-jsx-scope": 0
   	},
 
-	"plugins": ["react", "import", "jsx-a11y"],
+	"plugins": ["react", "import", "jsx-a11y", "react-hooks"],
 
 	"settings": {
     		"react": {
