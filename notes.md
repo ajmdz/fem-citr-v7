@@ -17,3 +17,6 @@ Every time react senses a change, it re-renders
 - `useState` depends heavily on the order that it's called. So don't have conditional hooks or inside of loops.
 - `useEffect` is like a function that we can wrap around something that will do stateful things that are going to live outside of the component
 - Dependency array in `useEffect` - whenever the given variable(s) change, the hook will be called. Pass empty array if we want it to run once in the beginning. If no dependency is given, the hook will be called whenever any state variable changes.
+
+### Custom Hooks
+- prefixing custom hook names with `use` is intentional
