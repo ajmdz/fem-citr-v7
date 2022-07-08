@@ -19,4 +19,11 @@ Every time react senses a change, it re-renders
 - Dependency array in `useEffect` - whenever the given variable(s) change, the hook will be called. Pass empty array if we want it to run once in the beginning. If no dependency is given, the hook will be called whenever any state variable changes.
 
 ### Custom Hooks
+
 - prefixing custom hook names with `use` is intentional
+
+## Handling User Input
+
+- When using a submit listener (i.e. onSubmit), first put `e.preventDefault()`
+- There are lots of ways to submit a form, but just listen for submit events
+- synthetic events are React events, not actual DOM events
