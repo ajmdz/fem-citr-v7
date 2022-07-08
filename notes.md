@@ -27,3 +27,6 @@ Every time react senses a change, it re-renders
 - When using a submit listener (i.e. onSubmit), first put `e.preventDefault()`
 - There are lots of ways to submit a form, but just listen for submit events
 - synthetic events are React events, not actual DOM events
+
+## Component Composition
+- Expressions will work inside curly braces, whereas statements won't
