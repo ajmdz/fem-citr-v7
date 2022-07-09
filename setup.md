@@ -116,6 +116,14 @@ REACT SETUP
 
 REACT ROUTER SETUP
 	1. `npm install react-router-dom@6.2.1`
+
+BABEL CLASS PROPERTIES SETUP
+	1. `npm i -D @babel/plugin-proposal-class-properties@7.16.7`
+	2. Make a file called .babelrc
+		{
+  			"plugins": ["@babel/plugin-proposal-class-properties"]
+		}
+	3. Replace class component constructor with `state = { loading: true };`
 	
 render will become createroot in react18 
 
