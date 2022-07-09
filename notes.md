@@ -41,3 +41,8 @@ Every time react senses a change, it re-renders
 ## React Router - internal navigation
 - Link: `<a href="">` -> `<Link to=""`
 - Everytime you use a link tag, it has to be inside the BrowserRouter
+- `useParams` for getting the parameters passed to route path (e.g. id)
+
+## Class Components
+- You can't use hooks inside class components
+- Important to know what `this` is.
