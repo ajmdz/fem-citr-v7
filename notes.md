@@ -46,3 +46,4 @@ Every time react senses a change, it re-renders
 ## Class Components
 - You can't use hooks inside class components
 - Important to know what `this` is.
+- defaultProps - all component instances share this prop
