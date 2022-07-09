@@ -30,3 +30,10 @@ Every time react senses a change, it re-renders
 
 ## Component Composition
 - Expressions will work inside curly braces, whereas statements won't
+
+## Building for production
+- React in production will be much smaller size than development. Read https://btholt.github.io/complete-intro-to-react-v7/lessons/core-react-concepts/react-dev-tools
+
+## Strict mode
+- Makes sure that the React app will be futureproof and compatible when newer versions get released.
+- Shipping strict mode in production has no effect.
