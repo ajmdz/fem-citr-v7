@@ -47,3 +47,7 @@ Every time react senses a change, it re-renders
 - You can't use hooks inside class components
 - Important to know what `this` is.
 - defaultProps - all component instances share this prop
+
+## Handle events in class components
+- to convert a numeric string into a number (e.g. index), use `+`. (e.g. `+event.target.dataset.index`)
+- An arrow function assures that the `this` inside an event handler will be the correct `this` because it will be the scope of where it was defined.
