@@ -112,9 +112,10 @@ REACT SETUP
 	A GOOD RULE OF THUMB: Pull out only the code you need from a package:
 	e.g. import { render } from "react-dom"
 		so we can just say `render()` instead of `ReactDOM.render()`
-		
 
-don't modify state inside render functions (e.g. putting increment inside the render function)
+
+REACT ROUTER SETUP
+	1. `npm install react-router-dom@6.2.1`
 	
-	render will become createroot in react18 
+render will become createroot in react18 
 

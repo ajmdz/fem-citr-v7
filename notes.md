@@ -37,3 +37,7 @@ Every time react senses a change, it re-renders
 ## Strict mode
 - Makes sure that the React app will be futureproof and compatible when newer versions get released.
 - Shipping strict mode in production has no effect.
+
+## React Router - internal navigation
+- Link: `<a href="">` -> `<Link to=""`
+- Everytime you use a link tag, it has to be inside the BrowserRouter
